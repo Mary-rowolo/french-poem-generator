@@ -7,41 +7,46 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Poem Generator!</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          id="topic"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
+    <div class="container">
+      <header>
+        <h1>Welcome to the Poem Generator!</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            class="input"
+            id="topic"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+          />
 
-        <input type="submit" id="" />
-      </form>
-      <div>
-        The poem will go here
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
 
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project is created by
-      <a href="https://github.com/Mary-rowolo" target="_blank">Mary Arowolo</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/Mary-rowolo/french-poem-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://frenchpoemer.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project is created by
+        <a href="https://github.com/Mary-rowolo" target="_blank"
+          >Mary Arowolo</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/Mary-rowolo/french-poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://frenchpoemer.netlify.app/" target="_blank">Netlify</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
